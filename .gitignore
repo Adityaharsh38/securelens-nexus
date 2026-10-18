@@ -1,0 +1,37 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+build/
+**/build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and local databases
+*.log
+backend/data/*.db
+backend/data/*.db-*
+.DS_Store
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
